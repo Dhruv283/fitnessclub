@@ -68,9 +68,11 @@ body{
         width:100%;
         top: 60px;
     }
-    #menucheck:checked+ #menucheck_label +#navigation_bar_col_2{
-        display: flex;
+
+    #menucheck:checked ~ #navigation_bar-col_2 {
+    display: flex;
     }
+
     .navigation_bar_box{
         text-align: center;
         border-bottom:1px solid white ;
